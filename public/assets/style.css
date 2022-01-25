@@ -1,0 +1,664 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.enti_body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("../assets/imeages/Decore.png");
+  background-repeat: no-repeat;
+  /* background-position: bottom 2cm ; */
+  background-position: top right 20px ;
+  font-family: "Poppins", sans-serif;
+  color: #1b2f5a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+li,
+p,
+span,
+button {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+
+.container {
+  margin: 0 10rem;
+}
+
+
+
+/* nav & hero sec. styling :- 1st */
+
+.nav-link{
+  justify-content: space-between;
+  /* color: #1b2f5a; */
+  color: black !important ;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+nav .brand {
+  color: #1b2f5a;
+  font-size: 3rem;
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+
+
+
+
+/* Starter (hero sec.) styling sec. :- */
+
+
+.starter .content {
+  /* margin: 4rem 0 0 0; */
+  margin-top: 4rem;
+}
+
+.starter .content .subTitle {
+  color: #f07167;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* margin-bottom: 1rem; */
+}
+
+ .starter .content .title {
+  font-size: 3.3rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.starter .content .title span {
+  background-image: url("../assets/imeages/Decore Text.png");
+  background-size: 160%;
+  background-repeat: no-repeat;
+  background-position: bottom 5px left 0;
+}
+
+.starter .content .description {
+  font-size: 1.1rem;
+  letter-spacing: 0.15rem;
+  margin-bottom: 1rem;
+}
+
+.starter .content .last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.starter .content .last .btn { /*Find out btn*/
+  background-color: #ff9f1c;
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  height: 3.5rem;
+  
+}
+
+.starter .content .last .play {
+  /* margin: 2rem 0 2rem 2rem; */
+  margin-left: 3rem;
+ 
+  display: flex;
+  
+          align-items: center; 
+}
+
+.starter .content .last .play button {
+  border-radius: 100%;
+   padding: 1rem;
+   display: flex;
+ 
+  margin-right: 1rem;
+  background-color: #f94144; 
+  border: none;
+  color: white;
+          box-shadow: #f941443d 0px 10px 20px, #f9414449 0px 6px 6px;
+}
+
+
+.starter .image img { /* traveller1 img */
+  height: 33rem;
+}
+
+
+
+
+
+/* Category styling :- 2nd */
+
+
+.services {
+  margin: 5rem 0;
+ 
+  display: flex;
+  
+          justify-content: center;
+  
+          align-items: center;
+ 
+          flex-direction: column;
+}
+
+.services .title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.services .cards {
+  
+  display: flex;
+          justify-content: space-between;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.services .cards .card {
+  height: 13rem;
+  padding: 1rem 1rem;
+ 
+  display: flex;
+  
+          align-items: center;
+  
+          flex-direction: column;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 1rem;
+}
+
+.services .cards .card .icon {
+  margin-bottom: 1rem;
+}
+
+.services .cards .card .title {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.services .cards .card p {
+  text-align: center;
+}
+
+
+
+/* Destination styling :- 3rd */
+
+
+.destination {
+  margin: 5rem 0;
+  
+  display: flex;
+  
+          flex-direction: column;
+ 
+          justify-content: center;
+
+          align-items: center;
+}
+
+.destination .title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.destination .cards {
+ 
+  display: flex;
+  gap: 4rem;
+}
+
+.destination .cards .image img {
+  height: 18rem;
+  width: 18rem;
+}
+
+.destination .cards .content {
+  
+  display: flex;
+  
+          justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.destination .cards .time {
+  
+  display: flex;
+}
+
+.destination .cards .time i {
+  margin-right: 1rem;
+}
+
+
+
+
+/* next-trip styling :- 4th */
+
+
+.next-trip {
+  margin: 5rem 0;
+  
+  display: flex;
+ 
+          justify-content: center;
+  gap: 10rem;
+}
+
+.next-trip .content .title {
+  font-size: 2rem;
+  margin: 0.3rem 0 1rem 0;
+}
+
+.next-trip .content .steps .step {
+  
+  display: flex;
+  
+          justify-content: center;
+ 
+          align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.next-trip .content .steps .step .text .title {
+  font-size: 1.2rem;
+text-align: left;
+font-weight: 450;
+  margin: 0.3rem 0;
+}
+
+.next-trip .content .steps .step .text p {
+  width: 70%;
+  text-align: left;
+
+}
+
+.next-trip .content .steps .step .icon {
+ 
+  display: flex;
+ 
+          justify-content: center;
+  
+          align-items: center;
+}
+
+.next-trip .content .steps .step .icon img {
+  height: 3rem;
+}
+
+
+/* next-trip styling right side  */
+.next-trip .trip {
+ 
+  display: flex;
+  
+          justify-content: center;
+ 
+          flex-direction: column;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.next-trip .trip .title {
+  margin: 0.5rem;
+}
+
+.next-trip .trip .subTitle {
+  margin: 0 0.5rem;
+  color: #4e4e4e;
+}
+
+.next-trip .trip .icons {
+  margin: 1rem 0;
+ 
+  display: flex;
+}
+
+.next-trip .trip .icons .icon {
+  margin: 0 0 0 0.5rem;
+  background-color: #e0e0e0;
+  height: 2.5rem;
+  width: 2.5rem;
+  
+  display: flex;
+  
+          justify-content: center;
+  
+          align-items: center;
+  border-radius: 3rem;
+}
+
+.next-trip .trip .like {
+  
+  display: flex;
+  
+          justify-content: space-between;
+  margin: 0.5rem 1rem;
+  color: #4e4e4e;
+}
+
+
+
+/* sub & footer part styling :- 5th */
+
+
+
+.subscribe {
+  height: 25rem;
+  
+  display: flex;
+ 
+          justify-content: center;
+ 
+          align-items: center;
+  
+          flex-direction: column;
+  background-image: linear-gradient(-225deg, #b6cee86e 0%, #8578f563 100%);
+  border-radius: 5rem 1rem 1rem 1rem;
+}
+
+.subscribe .title {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #523f75;
+}
+
+.subscribe input {
+  border: none;
+  width: 20rem;
+  border-radius: 0.3rem;
+  padding: 1.2rem 2rem;
+  margin-right: 1rem;
+}
+
+.subscribe input:focus {
+  outline: none;
+}
+
+.subscribe button {
+  background-color: #f07167;
+  padding: 1.1rem 3rem;
+  border: none;
+}
+
+        /* Footer styling */
+
+
+footer {
+  margin: 5rem 0;
+}
+
+footer .grid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(5, 1fr);
+}
+
+footer .grid .brand .logo {
+  color: #1b2f5a;
+  font-size: 3rem;
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+
+footer .grid .brand .subTitle {
+  width: 80%;
+}
+
+footer .grid .social {
+  
+  display: flex;
+
+          flex-direction: column;
+  
+          align-items: center;
+  
+          justify-content: center;
+}
+
+footer .grid .social .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+          align-items: center;
+  
+          justify-content: center;
+  margin-bottom: 1.4rem;
+}
+
+footer .grid .social .links .link {
+  height: 3rem;
+  width: 3rem;
+  margin: 0 1rem;
+  border-radius: 100%;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  
+  display: flex;
+  
+          align-items: center;
+  
+          justify-content: center;
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+footer .grid .social .links .link i {
+  font-size: 1.3rem;
+}
+
+footer .grid .social .app {
+  
+  display: flex;
+  
+          justify-content: center;
+  
+          align-items: center;
+  
+      -ms-flex-direction: column; 
+          flex-direction: column;
+}
+
+footer .grid .social .app .title {
+  margin-bottom: 0.7rem;
+  font-weight: 500;
+}
+
+footer .grid .social .app .links {
+  
+  display: flex;
+  gap: 1rem;
+}
+
+footer .grid .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+footer .grid ul {
+  list-style-type: none;
+}
+
+footer .grid ul li {
+  margin: 1rem 0;
+}
+
+footer span {
+  margin-top: 2rem;
+ 
+  display: flex;
+ 
+          justify-content: center;
+ 
+          align-items: center;
+  font-size: 0.8rem;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  .container {
+    margin: 0 2rem;
+  }
+  
+ 
+
+
+  
+  .starter .image img {
+    height: 20rem;
+    margin-top: 4rem;
+  }
+
+
+
+
+  
+  
+  .services .cards {
+   
+            flex-direction: column;
+  }
+  .destination .cards {
+  
+            flex-direction: column;
+  }
+  .next-trip {
+    
+            flex-direction: column;
+    gap: 2rem;
+  }
+  
+
+
+
+
+  
+  .subscribe .title {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .subscribe .contact {
+   
+    display: flex;
+  
+            justify-content: center;
+    
+            align-items: center;
+    
+            flex-direction: column;
+  }
+  .subscribe .contact input {
+    width: 12rem;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  footer .grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  footer span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { /* 912px*/
+  .container {
+    margin: 0 4rem;
+  }
+ 
+  .starter {
+    
+            flex-direction: column;
+  }
+  .starter .image img {
+    height: 40rem;
+    margin-top: 4rem;
+  }
+  .services .cards {
+   
+            flex-direction: column;
+  }
+  .destination .cards {
+    
+            flex-direction: column;
+  }
+  .next-trip {
+   
+            flex-direction: column;
+    gap: 2rem;
+  }
+ 
+ 
+  .subscribe .title {
+    font-size: 2rem;
+    width: 80%;
+  }
+  .subscribe .contact {
+    
+    display: flex;
+   
+            justify-content: center;
+    
+            align-items: center;
+    
+        -ms-flex-direction: column; 
+            flex-direction: column;
+  }
+  .subscribe .contact input {
+    width: 12rem;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  footer {
+    font-size: 1.3rem;
+  }
+  footer .grid {
+        grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+  footer span {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    margin: 0 6rem;
+  }
+} 
+
